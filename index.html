@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Channel Manager — Application Page</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; color: #18181b; background: #fff; }
+  @media (prefers-color-scheme: dark) { body { color: #e4e4e7; background: #101012; }
+    a { color: #7dd3fc; } hr { border-color: #27272a; } .box { background: #18181b; border-color: #27272a; } }
+  h1 { font-size: 1.7rem; margin: 0 0 .3em; letter-spacing: -.02em; }
+  h2 { font-size: 1.15rem; margin: 2em 0 .5em; }
+  .sub { color: #71717a; margin: 0 0 2em; }
+  a { color: #0369a1; }
+  hr { border: 0; border-top: 1px solid #e4e4e7; margin: 2.5em 0 1.5em; }
+  ul { padding-left: 1.2em; } li { margin: .3em 0; }
+  .box { background: #fafafa; border: 1px solid #e4e4e7; border-radius: 10px; padding: 14px 16px; margin: 1.2em 0; }
+  code { background: #f4f4f5; padding: .15em .4em; border-radius: 4px; font-size: .9em; }
+  @media (prefers-color-scheme: dark) { code { background: #27272a; } }
+</style>
+</head>
+<body>
+
+<h1>Channel Manager</h1>
+<p class="sub">A private automation tool for operating my own YouTube channels.</p>
+
+<div class="box">
+  <strong>In one line:</strong> it uploads videos to YouTube channels that belong to
+  me, and reads their own statistics back so I can see what is working.
+</div>
+
+<h2>What it does</h2>
+<ul>
+  <li>Uploads short videos to YouTube channels I own.</li>
+  <li>Schedules those uploads and manages their titles and descriptions.</li>
+  <li>Reads view counts, watch time and subscriber figures for my own channels,
+      so I can check results and stop repeating what does not work.</li>
+  <li>Searches publicly available YouTube videos to find source material.</li>
+</ul>
+
+<h2>What it does not do</h2>
+<ul>
+  <li>It has no user accounts, no sign-ups and no public interface.</li>
+  <li>It is not available to anyone else. There is no distribution channel.</li>
+  <li>It does not collect data from viewers, and it has no access to viewer
+      personal information.</li>
+  <li>It does not read or write anything on a channel that is not mine.</li>
+</ul>
+
+<h2>Why YouTube access is requested</h2>
+<p>Uploading requires the <code>youtube.upload</code> permission, and reading my own
+channel analytics requires the <code>youtube</code> permission. Both are used only
+against channels I own.</p>
+
+<h2>Where things run</h2>
+<p>The tool runs on a private server I control. Sign-in credentials are stored
+there and are never transmitted anywhere else, sold, or shared with third parties.</p>
+
+<hr>
+
+<h2>Policies</h2>
+<ul>
+  <li><a href="./privacy.html">Privacy Policy</a> &mdash; what data is accessed and how it is stored</li>
+  <li><a href="./terms.html">Terms of Service</a> &mdash; the terms this tool operates under</li>
+</ul>
+
+<p class="sub" style="margin-top:2.5em">Questions: <a href="mailto:hh1092838@gmail.com">hh1092838@gmail.com</a></p>
+
+</body>
+</html>
